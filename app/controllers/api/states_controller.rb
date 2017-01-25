@@ -5,14 +5,11 @@ class Api::StatesController < ApplicationController
   # GET /api/states.json
   def index
     @api_states = Api::State.all
-
-    render json: @api_states
   end
 
   # GET /api/states/1
   # GET /api/states/1.json
   def show
-    render json: @api_state
   end
 
   # POST /api/states
