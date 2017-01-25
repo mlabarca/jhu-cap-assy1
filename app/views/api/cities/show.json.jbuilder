@@ -1,0 +1,1 @@
+json.partial! "api_cities/api_city", api_city: @api_city

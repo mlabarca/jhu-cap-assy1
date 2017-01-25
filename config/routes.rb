@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  namespace :api do resources :cities, except: [:new, :edit] end
   get '/ui'  => 'ui#index'
   get '/ui#' => 'ui#index'
   root to: 'ui#index'

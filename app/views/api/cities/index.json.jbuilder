@@ -1,0 +1,1 @@
+json.array! @api_cities, partial: 'api_cities/api_city', as: :api_city
