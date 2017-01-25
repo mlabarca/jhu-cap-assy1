@@ -1,0 +1,1 @@
+json.partial! "api_states/api_state", api_state: @api_state

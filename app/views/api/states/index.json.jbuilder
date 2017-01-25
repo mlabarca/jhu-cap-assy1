@@ -1,0 +1,1 @@
+json.array! @api_states, partial: 'api_states/api_state', as: :api_state
