@@ -7,3 +7,4 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Api::City.create(name: 'Baltimore')
+Api::State.create(name: 'Maryland')
