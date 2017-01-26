@@ -1,1 +1,1 @@
-json.partial! "api_states/api_state", api_state: @api_state
+json.partial! "api/states/api_state", api_state: @api_state
