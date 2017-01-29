@@ -54,6 +54,6 @@ class Api::CitiesController < ApplicationController
     end
 
     def api_city_params
-      params[:api_city]
+      params.require(:api_city).permit(:name)
     end
 end
