@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
   namespace :api do 
-    resources :states, except: [:new, :edit, :destroy, :update], defaults: {format: :json} 
-    resources :cities, except: [:new, :edit, :destroy, :update], defaults: {format: :json} 
+    resources :states, except: [:new, :edit], defaults: {format: :json} 
+    resources :cities, except: [:new, :edit], defaults: {format: :json} 
   end
 
   get '/ui'  => 'ui#index'
