@@ -6,6 +6,10 @@ gem 'rails-api', '~>0.4', '>=0.4.0'
 gem 'pry-rails', '~>0.3', '>=0.3.4'
 gem 'rack-cors', '~>0.4', '>=0.4.0', :require => 'rack/cors'
 
+gem 'sass-rails', '~> 5.0', '>=3.4.22'
+gem 'uglifier', '~> 3.0', '>=3.0.2'
+gem 'coffee-rails', '~> 4.1', '>= 4.1.0'
+gem 'jquery-rails', '~>4.2', '>=4.2.1'
 gem 'jbuilder', '~> 2.0', '>=2.6.0'
 
 group :development do
