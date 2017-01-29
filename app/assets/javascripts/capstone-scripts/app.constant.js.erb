@@ -1,0 +1,8 @@
+(function(){
+  angular
+    .module('app')
+    .constant('app.APP_CONFIG', {
+      server_url: "<%= ENV['RAILS_API_URL'] %>",
+      main_page_html: "<%= asset_path('capstone-scripts/pages/main.html') %>",
+    })
+})();
